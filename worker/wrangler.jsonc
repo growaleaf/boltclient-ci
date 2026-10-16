@@ -1,0 +1,16 @@
+{
+  // License server for standalone "boltclient-ci" (Orchard CAT-D-102's CLI, sold separately).
+  // Deploy: cd worker && npx wrangler deploy
+  //   then: npx wrangler secret put STRIPE_SECRET_KEY    (Made for This Day Stripe account)
+  //         npx wrangler secret put LICENSE_PRIVATE_KEY  (from ~/.hive_devtools_license_keys/boltclient.dev.vars)
+  "name": "boltclient-ci-license",
+  "main": "src/index.js",
+  "compatibility_date": "2026-05-25",
+  "routes": [
+    { "pattern": "boltclient-ci.madeforthisday.com", "custom_domain": true }
+  ],
+  "vars": {
+    // Stripe payment link for the $14 one-time Pro unlock
+    "PAYMENT_LINK_URL": "https://buy.stripe.com/bJedR9bNd0VY8Wi8Tt2gp1N"
+  }
+}

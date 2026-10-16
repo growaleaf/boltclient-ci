@@ -1,0 +1,6 @@
+{
+  "name": "clean-collection",
+  "requests": [
+    { "name": "ok one", "method": "GET", "url": "__BASEURL__/ok", "params": [], "headers": [], "body": "", "bodyType": "none" }
+  ]
+}

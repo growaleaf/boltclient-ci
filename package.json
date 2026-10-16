@@ -1,0 +1,35 @@
+{
+  "name": "boltclient-ci",
+  "version": "1.0.0",
+  "description": "Run a Boltclient collection (or a Thunder Client / Postman v2.1 export) from the command line and fail CI if any request comes back 4xx/5xx or can't connect.",
+  "license": "SEE LICENSE IN LICENSE",
+  "bin": {
+    "boltclient-ci": "./cli.js"
+  },
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/growaleaf/boltclient-ci.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "smoke-test",
+    "collection-runner",
+    "ci",
+    "continuous-integration",
+    "postman",
+    "thunder-client"
+  ],
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ]
+}

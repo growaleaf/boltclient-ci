@@ -1,0 +1,7 @@
+{
+  "name": "native-collection",
+  "requests": [
+    { "name": "get ok", "method": "GET", "url": "{{baseUrl}}/ok", "params": [], "headers": [{ "key": "X-Token", "value": "{{token}}", "enabled": true }], "body": "", "bodyType": "none" },
+    { "name": "get missing", "method": "GET", "url": "{{baseUrl}}/missing", "params": [], "headers": [], "body": "", "bodyType": "none" }
+  ]
+}

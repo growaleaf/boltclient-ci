@@ -1,0 +1,24 @@
+{
+  "info": {
+    "name": "postman-fixture",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "folder",
+      "item": [
+        {
+          "name": "ping",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/ok", "query": [{ "key": "q", "value": "1" }] },
+            "header": [{ "key": "X-Token", "value": "{{token}}" }]
+          }
+        }
+      ]
+    },
+    {
+      "name": "no-request-item"
+    }
+  ]
+}

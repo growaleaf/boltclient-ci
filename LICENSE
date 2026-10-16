@@ -1,0 +1,28 @@
+boltclient-ci — Proprietary Source-Available License
+
+Copyright (c) 2026 Unlimited Chaos
+
+Permission is granted to view, fork, and audit the source code of this repository for
+evaluation purposes.
+
+Running `cli.js` for any purpose other than evaluation (including, without limitation, use in
+a build pipeline, continuous-integration job, or any automated or manual API smoke test against
+an environment you intend to ship) requires a valid, separately-purchased Pro license key,
+checked offline by the software itself.
+
+You MAY:
+  - Read, fork, and modify this source for your own private evaluation.
+  - Redistribute unmodified copies of this repository, including this license.
+
+You MAY NOT:
+  - Remove or defeat the license-key check.
+  - Redistribute a modified copy that bypasses, patches around, or disables the license check.
+  - Resell or relicense this software as your own.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+Refunds: if this tool doesn't work for you, contact support within 14 days of purchase (address
+on your purchase receipt) for a full refund, no questions asked.

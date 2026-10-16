@@ -1,0 +1,16 @@
+{
+  "clientName": "Thunder Client",
+  "collectionName": "thunder-fixture",
+  "requests": [
+    {
+      "name": "ping",
+      "method": "GET",
+      "url": "{{baseUrl}}/ok",
+      "params": [{ "name": "q", "value": "1", "isDisabled": false }],
+      "headers": [{ "name": "X-Token", "value": "{{token}}", "isDisabled": false }]
+    },
+    {
+      "name": "unnamed-no-url"
+    }
+  ]
+}

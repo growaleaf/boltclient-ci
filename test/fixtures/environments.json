@@ -1,0 +1,9 @@
+{
+  "active": "test",
+  "environments": {
+    "test": {
+      "baseUrl": "__BASEURL__",
+      "token": { "secret": true }
+    }
+  }
+}
